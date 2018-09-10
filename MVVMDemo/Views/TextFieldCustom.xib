@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TextFieldCustom" customModule="MVVMDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="constrainHeight" destination="ngG-w3-O4G" id="tDs-hx-yN2"/>
+                <outlet property="imgLeft" destination="dSF-fk-Zoe" id="9YE-Ou-GM4"/>
+                <outlet property="labelView" destination="wXJ-3U-o8z" id="Qfh-oE-ZEb"/>
+                <outlet property="lineBelow" destination="Fcr-na-sth" id="kPU-JJ-2co"/>
+                <outlet property="textfieldView" destination="8gp-tB-BkE" id="h2k-VH-FNz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="881" height="354"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dSF-fk-Zoe">
+                    <rect key="frame" x="0.0" y="88.5" width="177" height="177"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="dSF-fk-Zoe" secondAttribute="height" multiplier="1:1" id="c5k-62-DjY"/>
+                    </constraints>
+                </imageView>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8gp-tB-BkE">
+                    <rect key="frame" x="187" y="0.0" width="694" height="354"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Input here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXJ-3U-o8z">
+                    <rect key="frame" x="187" y="167" width="78" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.31436389593908631" green="0.31436389593908631" blue="0.31436389593908631" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fcr-na-sth">
+                    <rect key="frame" x="0.0" y="353" width="881" height="1"/>
+                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="n0W-Jq-kOW"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="8gp-tB-BkE" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="1c1-kD-gzN"/>
+                <constraint firstItem="8gp-tB-BkE" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="33i-Ta-c2Y"/>
+                <constraint firstItem="wXJ-3U-o8z" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="FLr-jl-JWJ"/>
+                <constraint firstItem="8gp-tB-BkE" firstAttribute="leading" secondItem="dSF-fk-Zoe" secondAttribute="trailing" constant="10" id="SZ7-Ej-fMh"/>
+                <constraint firstItem="dSF-fk-Zoe" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Usr-0z-p12"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Fcr-na-sth" secondAttribute="trailing" id="cAn-FV-x36"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Fcr-na-sth" secondAttribute="bottom" id="dIc-iU-btG"/>
+                <constraint firstItem="wXJ-3U-o8z" firstAttribute="leading" secondItem="dSF-fk-Zoe" secondAttribute="trailing" constant="10" id="fhx-Xz-YwZ"/>
+                <constraint firstItem="dSF-fk-Zoe" firstAttribute="height" secondItem="vUN-kp-3ea" secondAttribute="height" multiplier="1/2" identifier="heightImg" id="ngG-w3-O4G"/>
+                <constraint firstItem="Fcr-na-sth" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="uPj-6u-5Mx"/>
+                <constraint firstItem="8gp-tB-BkE" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="vVh-LD-aiK"/>
+                <constraint firstItem="dSF-fk-Zoe" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="wwg-Ul-4gq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="164.5" y="-162"/>
+        </view>
+    </objects>
+</document>

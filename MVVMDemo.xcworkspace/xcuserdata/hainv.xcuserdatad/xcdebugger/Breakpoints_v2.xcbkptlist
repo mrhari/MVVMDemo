@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVMDemo/ListViewController.swift"
+            timestampString = "557850863.225237"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVMDemo/ViewModels/SearchViewModel.swift"
+            timestampString = "558199609.608073"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "SearchViewModel"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "variable initialization expression of MVVMDemo.SearchViewModel.msgError : RxSwift.Variable&lt;Swift.String&gt;"
+                  moduleName = "MVVMDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Projects/Training/MVVMDemo/MVVMDemo/ViewModels/SearchViewModel.swift"
+                  timestampString = "557861944.683053"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVMDemo.SearchViewModel.msgError.getter : RxSwift.Variable&lt;Swift.String&gt;"
+                  moduleName = "MVVMDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Projects/Training/MVVMDemo/MVVMDemo/ViewModels/SearchViewModel.swift"
+                  timestampString = "557861944.69145"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "30">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVMDemo.SearchViewModel.msgError.setter : RxSwift.Variable&lt;Swift.String&gt;"
+                  moduleName = "MVVMDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Projects/Training/MVVMDemo/MVVMDemo/ViewModels/SearchViewModel.swift"
+                  timestampString = "557861944.696815"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVMDemo.SearchViewModel.init() -&gt; MVVMDemo.SearchViewModel"
+                  moduleName = "MVVMDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Projects/Training/MVVMDemo/MVVMDemo/ViewModels/SearchViewModel.swift"
+                  timestampString = "557861944.700482"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "58">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVMDemo/ViewModels/SearchViewModel.swift"
+            timestampString = "558199609.6081541"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "SearchViewModel"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "variable initialization expression of MVVMDemo.SearchViewModel.resultSearch : RxSwift.Variable&lt;Swift.Array&lt;MVVMDemo.FilmModel&gt;&gt;"
+                  moduleName = "MVVMDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Projects/Training/MVVMDemo/MVVMDemo/ViewModels/SearchViewModel.swift"
+                  timestampString = "557861944.715698"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVMDemo.SearchViewModel.resultSearch.getter : RxSwift.Variable&lt;Swift.Array&lt;MVVMDemo.FilmModel&gt;&gt;"
+                  moduleName = "MVVMDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Projects/Training/MVVMDemo/MVVMDemo/ViewModels/SearchViewModel.swift"
+                  timestampString = "557861944.7176811"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "30">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVMDemo.SearchViewModel.resultSearch.setter : RxSwift.Variable&lt;Swift.Array&lt;MVVMDemo.FilmModel&gt;&gt;"
+                  moduleName = "MVVMDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Projects/Training/MVVMDemo/MVVMDemo/ViewModels/SearchViewModel.swift"
+                  timestampString = "557861944.720642"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVMDemo.SearchViewModel.init() -&gt; MVVMDemo.SearchViewModel"
+                  moduleName = "MVVMDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Projects/Training/MVVMDemo/MVVMDemo/ViewModels/SearchViewModel.swift"
+                  timestampString = "557861944.728526"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVMDemo/Controllers/ListViewController.swift"
+            timestampString = "557949918.584744"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVMDemo/Views/MyTableViewCell.swift"
+            timestampString = "558199609.608256"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "setViews(film:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVMDemo/ViewModels/SearchViewModel.swift"
+            timestampString = "558199609.608312"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "searchFilm(textSearch:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVMDemo/ViewControllers/DetailViewController.swift"
+            timestampString = "558126178.905147"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "swipeAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVMDemo/ViewControllers/DetailViewController.swift"
+            timestampString = "558126178.90519"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "swipeAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

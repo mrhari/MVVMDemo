@@ -7,21 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A2AE887621FC278DF194F52 /* Pods_MVVMDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00B7CD71FD581C6810F82DF /* Pods_MVVMDemo.framework */; };
 		F00038FF213D815F00F33F62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00038FE213D815E00F33F62 /* AppDelegate.swift */; };
-		F0003901213D815F00F33F62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0003900213D815F00F33F62 /* ViewController.swift */; };
+		F0003901213D815F00F33F62 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0003900213D815F00F33F62 /* LoginViewController.swift */; };
 		F0003904213D815F00F33F62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0003902213D815F00F33F62 /* Main.storyboard */; };
 		F0003906213D816000F33F62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0003905213D816000F33F62 /* Assets.xcassets */; };
 		F0003909213D816000F33F62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0003907213D816000F33F62 /* LaunchScreen.storyboard */; };
+		F0003917213D906D00F33F62 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0003916213D906D00F33F62 /* LoginViewModel.swift */; };
+		F08567D121427CF3005F8D30 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08567D021427CF3005F8D30 /* APIClient.swift */; };
+		F08567D421428D80005F8D30 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08567D321428D80005F8D30 /* AppConstant.swift */; };
+		F08567D92142926F005F8D30 /* TextFieldCustom.xib in Resources */ = {isa = PBXBuildFile; fileRef = F08567D72142926F005F8D30 /* TextFieldCustom.xib */; };
+		F08567DA2142926F005F8D30 /* TextFieldCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08567D82142926F005F8D30 /* TextFieldCustom.swift */; };
+		F08567DE21429C2E005F8D30 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08567DD21429C2E005F8D30 /* Request.swift */; };
+		F08567E02142E14B005F8D30 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08567DF2142E14B005F8D30 /* BaseResponse.swift */; };
+		F08567E22142E6C8005F8D30 /* FilmSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08567E12142E6C8005F8D30 /* FilmSearchResponse.swift */; };
+		F08567E42142EAFF005F8D30 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08567E32142EAFF005F8D30 /* Utils.swift */; };
+		F08567E6214303A9005F8D30 /* SearchFilmRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08567E5214303A9005F8D30 /* SearchFilmRequest.swift */; };
+		F0CB18FD2141002D00D449F6 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0CB18FC2141002D00D449F6 /* MyTableViewCell.xib */; };
+		F0F1FBA8213ED9D2009F9394 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F1FBA7213ED9D2009F9394 /* ListViewController.swift */; };
+		F0FB24BB213FAE7E00C18F23 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FB24BA213FAE7E00C18F23 /* SearchViewModel.swift */; };
+		F0FB24BE213FBAEC00C18F23 /* FilmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FB24BD213FBAEC00C18F23 /* FilmModel.swift */; };
+		F0FB24C12140263E00C18F23 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FB24C02140263E00C18F23 /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E254FDAD92DCFEF73871F80 /* Pods-MVVMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMDemo/Pods-MVVMDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A3F69726416E7AD712FF0189 /* Pods-MVVMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMDemo/Pods-MVVMDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B00B7CD71FD581C6810F82DF /* Pods_MVVMDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F00038FB213D815E00F33F62 /* MVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F00038FE213D815E00F33F62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F0003900213D815F00F33F62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0003900213D815F00F33F62 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F0003903213D815F00F33F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0003905213D816000F33F62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0003908213D816000F33F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F000390A213D816000F33F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0003916213D906D00F33F62 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		F08567D021427CF3005F8D30 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		F08567D321428D80005F8D30 /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		F08567D72142926F005F8D30 /* TextFieldCustom.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldCustom.xib; sourceTree = "<group>"; };
+		F08567D82142926F005F8D30 /* TextFieldCustom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldCustom.swift; sourceTree = "<group>"; };
+		F08567DD21429C2E005F8D30 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		F08567DF2142E14B005F8D30 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		F08567E12142E6C8005F8D30 /* FilmSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmSearchResponse.swift; sourceTree = "<group>"; };
+		F08567E32142EAFF005F8D30 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		F08567E5214303A9005F8D30 /* SearchFilmRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFilmRequest.swift; sourceTree = "<group>"; };
+		F0CB18FC2141002D00D449F6 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		F0F1FBA7213ED9D2009F9394 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		F0FB24BA213FAE7E00C18F23 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		F0FB24BD213FBAEC00C18F23 /* FilmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmModel.swift; sourceTree = "<group>"; };
+		F0FB24C02140263E00C18F23 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A2AE887621FC278DF194F52 /* Pods_MVVMDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72C4D4C49C7366A20FEB797E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B00B7CD71FD581C6810F82DF /* Pods_MVVMDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74E5AE9B6E17203BA164019C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3F69726416E7AD712FF0189 /* Pods-MVVMDemo.debug.xcconfig */,
+				7E254FDAD92DCFEF73871F80 /* Pods-MVVMDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F00038F2213D815E00F33F62 = {
 			isa = PBXGroup;
 			children = (
 				F00038FD213D815E00F33F62 /* MVVMDemo */,
 				F00038FC213D815E00F33F62 /* Products */,
+				74E5AE9B6E17203BA164019C /* Pods */,
+				72C4D4C49C7366A20FEB797E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +108,93 @@
 		F00038FD213D815E00F33F62 /* MVVMDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F08567D2214287BB005F8D30 /* Core */,
+				F08567CF21427BE0005F8D30 /* Service */,
+				F0FB24BC213FB8F200C18F23 /* Models */,
+				F0003915213D87E500F33F62 /* ViewModels */,
+				F0FB24BF214021FA00C18F23 /* ViewControllers */,
+				F0003910213D817B00F33F62 /* Views */,
 				F00038FE213D815E00F33F62 /* AppDelegate.swift */,
-				F0003900213D815F00F33F62 /* ViewController.swift */,
 				F0003902213D815F00F33F62 /* Main.storyboard */,
 				F0003905213D816000F33F62 /* Assets.xcassets */,
 				F0003907213D816000F33F62 /* LaunchScreen.storyboard */,
 				F000390A213D816000F33F62 /* Info.plist */,
 			);
 			path = MVVMDemo;
+			sourceTree = "<group>";
+		};
+		F0003910213D817B00F33F62 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F08567D82142926F005F8D30 /* TextFieldCustom.swift */,
+				F08567D72142926F005F8D30 /* TextFieldCustom.xib */,
+				F0FB24C02140263E00C18F23 /* MyTableViewCell.swift */,
+				F0CB18FC2141002D00D449F6 /* MyTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F0003915213D87E500F33F62 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F0003916213D906D00F33F62 /* LoginViewModel.swift */,
+				F0FB24BA213FAE7E00C18F23 /* SearchViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F08567CF21427BE0005F8D30 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F08567DB21429BC0005F8D30 /* Request */,
+				F08567DC21429BD2005F8D30 /* Response */,
+				F08567D021427CF3005F8D30 /* APIClient.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F08567D2214287BB005F8D30 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F08567D321428D80005F8D30 /* AppConstant.swift */,
+				F08567E32142EAFF005F8D30 /* Utils.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F08567DB21429BC0005F8D30 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				F08567DD21429C2E005F8D30 /* Request.swift */,
+				F08567E5214303A9005F8D30 /* SearchFilmRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F08567DC21429BD2005F8D30 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				F08567DF2142E14B005F8D30 /* BaseResponse.swift */,
+				F08567E12142E6C8005F8D30 /* FilmSearchResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		F0FB24BC213FB8F200C18F23 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F0FB24BD213FBAEC00C18F23 /* FilmModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F0FB24BF214021FA00C18F23 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F0F1FBA7213ED9D2009F9394 /* ListViewController.swift */,
+				F0003900213D815F00F33F62 /* LoginViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F000390D213D816000F33F62 /* Build configuration list for PBXNativeTarget "MVVMDemo" */;
 			buildPhases = (
+				BB074679716DC91C54B5A777 /* [CP] Check Pods Manifest.lock */,
 				F00038F7213D815E00F33F62 /* Sources */,
 				F00038F8213D815E00F33F62 /* Frameworks */,
 				F00038F9213D815E00F33F62 /* Resources */,
+				8E28FB0B4CFB095B1C830ACC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +257,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0CB18FD2141002D00D449F6 /* MyTableViewCell.xib in Resources */,
 				F0003909213D816000F33F62 /* LaunchScreen.storyboard in Resources */,
 				F0003906213D816000F33F62 /* Assets.xcassets in Resources */,
 				F0003904213D815F00F33F62 /* Main.storyboard in Resources */,
+				F08567D92142926F005F8D30 /* TextFieldCustom.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E28FB0B4CFB095B1C830ACC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MVVMDemo/Pods-MVVMDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVMDemo/Pods-MVVMDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB074679716DC91C54B5A777 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVMDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F00038F7213D815E00F33F62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0003901213D815F00F33F62 /* ViewController.swift in Sources */,
+				F0FB24BB213FAE7E00C18F23 /* SearchViewModel.swift in Sources */,
+				F08567D421428D80005F8D30 /* AppConstant.swift in Sources */,
+				F0FB24C12140263E00C18F23 /* MyTableViewCell.swift in Sources */,
+				F08567E42142EAFF005F8D30 /* Utils.swift in Sources */,
+				F08567E02142E14B005F8D30 /* BaseResponse.swift in Sources */,
+				F0003917213D906D00F33F62 /* LoginViewModel.swift in Sources */,
+				F08567DE21429C2E005F8D30 /* Request.swift in Sources */,
+				F0003901213D815F00F33F62 /* LoginViewController.swift in Sources */,
+				F0FB24BE213FBAEC00C18F23 /* FilmModel.swift in Sources */,
+				F0F1FBA8213ED9D2009F9394 /* ListViewController.swift in Sources */,
 				F00038FF213D815F00F33F62 /* AppDelegate.swift in Sources */,
+				F08567E6214303A9005F8D30 /* SearchFilmRequest.swift in Sources */,
+				F08567DA2142926F005F8D30 /* TextFieldCustom.swift in Sources */,
+				F08567D121427CF3005F8D30 /* APIClient.swift in Sources */,
+				F08567E22142E6C8005F8D30 /* FilmSearchResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,10 +475,13 @@
 		};
 		F000390E213D816000F33F62 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3F69726416E7AD712FF0189 /* Pods-MVVMDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TYM4DP7X82;
 				INFOPLIST_FILE = MVVMDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,10 +495,13 @@
 		};
 		F000390F213D816000F33F62 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E254FDAD92DCFEF73871F80 /* Pods-MVVMDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TYM4DP7X82;
 				INFOPLIST_FILE = MVVMDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
